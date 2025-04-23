@@ -1,0 +1,147 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Frontend Development",
+      "subtitle": "HTML, CSS va JavaScript orqali zamonaviy va interaktiv veb-saytlar yaratishni o‘rganing",
+      "category": "Veb dizayn va dasturlash",
+      "rating": 4.9,
+      "duration": "6 soat",
+      "videos": 29,
+      "students": 2800,
+      "image": "/public/images/Front_end.jpg",
+      "video_preview": "/public/video/FrontEnd.mkv",
+      "youtube" : "https://youtu.be/9dUhZq9dkHM?list=PLpDyZ4xZcDg_aAzP6pDD1PRsYCSdheveS",
+      "sections": [
+        {
+          "title": "Kurs haqida",
+          "content": "Frontend dasturlash — bu foydalanuvchiga ko‘rinadigan hamma narsani yaratish demakdir. Ushbu kurs sizga HTML, CSS, va JavaScript asoslarini chuqur o‘rgatadi. Siz real hayotiy loyiha asosida ish olib borasiz, sahifalarni to‘g‘ri tuzishni, ularni responsiv va interaktiv qilishni, media queries yordamida har xil ekranlarga moslashtirishni o‘rganasiz. Kurs davomida siz veb sahifani mobil qurilmalarga moslashtirish, animatsiyalar qo‘shish, shakllar bilan ishlash, API dan ma'lumot olish kabi ko‘nikmalarga ega bo‘lasiz. Kursdan nimalarni o‘rganasiz?"
+          
+        },
+      
+        {
+          "title": "Kursdan nimalarni o‘rganasiz?",
+          "content": "- HTML5 orqali sahifa skeletini yaratish\n- CSS3 bilan dizayn berish, Flexbox va Grid ishlatish\n- JavaScript orqali sahifaga interaktivlik qo‘shish\n- DOM bilan ishlash va hodisalarni boshqarish\n- Formalarni yaratish va validatsiya qilish\n- Responsive dizayn asoslari, mobil-first yondashuvi\n- Git va GitHub orqali versiya nazorati\n- Animatsiyalar (transition, transform) qo‘llash\n- Loyihani to‘liq noldan deploy qilish"
+        },
+        {
+          "title": "Kimlar uchun?",
+          "content": "Bu kurs yangi boshlayotganlar, dizaynerlar va o‘z loyihalarini internetda jonli ko‘rsatmoqchi bo‘lganlar uchun ideal. Agar siz veb-sahifalar yaratishni o‘rganmoqchi bo‘lsangiz, bu kurs aynan siz uchun."
+        },
+        {
+          "title": "Kursni tugatgach nimaga erishasiz?",
+          "content": "Kursni yakunlaganingizdan so‘ng siz mustaqil ravishda professional veb-sahifalar yaratish, ularni responsiv qilish, foydalanuvchi bilan interaktiv aloqada bo‘lishi uchun JavaScript funksiyalarini yozish imkoniyatiga ega bo‘lasiz. GitHub profilga loyihalarni joylab, portfoliongizni shakllantira olasiz."
+        }
+      ]
+    },
+    
+    {
+      "id": 3,
+      "title": "Backend Dasturlash",
+      "subtitle": "Server tizimi va API yaratishni o‘rganing",
+      "category": "Veb dasturlash",
+      "rating": 4.7,
+      "duration": "15 soat",
+      "videos": 12,
+      "students": 2100,
+      "image": "/public/images/backend.png",
+      "video_preview": "/public/video/BackEnd.mkv",
+      "youtube" : "https://youtu.be/Ma3bTYOXE4Q?list=PL-0DzVm_m7p2FNlzmxgW3aisrQYKfUKdA",
+      "sections": [
+        {
+          "title": "Kurs haqida",
+          "content": "Backend dasturlash kursi sizni server tomonlama tizimlar yaratish, ma’lumotlar bazasi bilan ishlash va RESTful API yaratish bo‘yicha to‘liq bilim bilan ta’minlaydi. Kurs davomida siz Node.js va Express kabi texnologiyalarni o‘rganasiz."
+        },
+        {
+          "title": "Kurs mazmuni",
+          "content": "Kurs HTTP protokoli, backend fayl strukturasi, MongoDB bazasi, foydalanuvchini autentifikatsiya qilish va API xavfsizligi mavzularini o‘z ichiga oladi."
+        },
+        {
+          "title": "Yakuniy loyiha",
+          "content": "Kurs yakunida siz CRUD, JWT orqali autentifikatsiya va MongoDB bilan bog‘langan e-commerce backend tizimini ishlab chiqasiz."
+        }
+      ]
+    },    
+    {
+      "id": 4,
+      "title": "PHP Dasturlash",
+      "subtitle": "PHP orqali dinamik veb-sahifalar yaratish, ma’lumotlar bazasi bilan ishlash va foydalanuvchi autentifikatsiyasi tizimini o‘rganing",
+      "category": "Veb dasturlash",
+      "rating": 4.6,
+      "duration": "20 soat",
+      "videos": 37,
+      "students": 2300,
+      "image": "/public/images/php.jpg",
+      "video_preview": "/public/video/PHP.mkv",
+      "youtube":"https://youtu.be/r2Tk3_jn0pY?list=PLlvUmyq_t3vwl2DO9l_3IvsIl5U9ENan6",
+      "sections": [
+        {
+          "title": "Kurs haqida",
+          "content": "PHP – veb dasturlash uchun eng mashhur backend tillaridan biri bo‘lib, ushbu kurs sizni PHP sintaksisi, server tomonlama kod yozish, formalarni qayta ishlash va MySQL bilan integratsiya qilish kabi muhim bilimlar bilan ta’minlaydi."
+        },
+        {
+          "title": "Kurs mazmuni",
+          "content": "Kursda siz PHP asoslari, shart operatorlari, sikllar, funksiyalar, fayllar bilan ishlash, foydalanuvchi ma’lumotlarini bazaga yozish va ulardan foydalanishni chuqur o‘rganasiz. Har bir modulda amaliy mashg‘ulotlar mavjud."
+        },
+        {
+          "title": "Yakuniy loyiha",
+          "content": "Kurs yakunida siz PHP va MySQL asosida to‘liq funksional foydalanuvchi ro‘yxatdan o‘tish va login tizimini yaratish, admin panel va CRUD operatsiyalarni bajarish imkoniyatiga ega bo‘lasiz."
+        }
+      ]
+    },    
+    {
+      "id": 5,
+      "title": "UI/UX Dizayn Asoslari",
+      "subtitle": "Foydalanuvchi interfeysi va tajribasini yaratish bo‘yicha mukammal bilimlarga ega bo‘ling, Figma, prototiplash va dizayn printsiplarini o‘rganing",
+      "category": "Grafik va Web dizayn",
+      "rating": 4.9,
+      "duration": "2 soat",
+      "videos": 2,
+      "students": 3200,
+      "image": "/public/images/ui_ux.png",
+      "video_preview": "/public/video/ui_ux.mkv",
+      "youtube":"https://youtu.be/OCgWjLhIMcU",
+      "sections": [
+        {
+          "title": "Kurs haqida",
+          "content": "Ushbu kurs orqali siz UI (User Interface) va UX (User Experience) dizayn asoslarini o‘rganasiz. Foydalanuvchiga qulay va zamonaviy dizaynlarni yaratish bo‘yicha amaliy tajriba to‘playsiz."
+        },
+        {
+          "title": "Kurs mazmuni",
+          "content": "Darslar davomida siz Figma, Adobe XD kabi vositalar bilan ishlashni, wireframe chizishni, foydalanuvchi oqimini (user flow) loyihalashni va interaktiv prototiplar yaratishni o‘rganasiz."
+        },
+        {
+          "title": "Yakuniy loyiha",
+          "content": "Kurs yakunida siz o‘zingiz mustaqil tarzda mobil ilova yoki veb-sayt dizaynini noldan prototipgacha ishlab chiqasiz, real loyihaga tayyor portfoliongiz bo‘ladi."
+        }
+      ]
+    },    
+    {
+      "id": 6,
+      "title": "Sun'iy Intellekt Asoslari",
+      "subtitle": "Sun'iy intellekt va mashinaviy o‘rganishning asoslarini o‘rganing, Python, TensorFlow va boshqa vositalar bilan ishlashni o‘rganing",
+      "category": "Dasturlash va Sun'iy Intellekt",
+      "rating": 4.8,
+      "duration": "8 soat",
+      "videos": 12,
+      "students": 2500,
+      "image": "/public/images/suniy_intelekt.jpg",
+      "video_preview": "/public/video/Suni'y_Intellekt.mkv",
+      "youtube":"https://youtu.be/19y92GtzFck?list=PLqWThajMX99UDVYl2_W2a7pTdmDfFSq9M",
+      "sections": [
+        {
+          "title": "Kurs haqida",
+          "content": "Ushbu kursda siz sun'iy intellekt (AI) va mashinaviy o‘rganish (ML) asoslarini, shuningdek, bu texnologiyalarning amaliy qo‘llanilishi va dasturlash tillari bilan ishlashni o‘rganasiz. Kurs davomida Python dasturlash tili va TensorFlow kabi kutubxonalardan foydalanishni o‘rganasiz."
+        },
+        {
+          "title": "Kurs mazmuni",
+          "content": "Darslar davomida siz sun'iy intellektning asosiy tushunchalarini, mashinaviy o‘rganish modellari va algoritmlarini o‘rganasiz. Shuningdek, siz to‘g‘ri ma'lumotni tahlil qilish va modelni yaratish uchun zarur vositalarni o‘rganasiz."
+        },
+        {
+          "title": "Yakuniy loyiha",
+          "content": "Kurs yakunida siz o‘zingiz mustaqil tarzda sun'iy intellekt asosida ishlovchi biror model yaratib, real ma'lumotlar bilan amaliy ishni bajarishingiz mumkin. Loyihangizni portfoliyoga qo‘shishingiz va sohada ish topishga tayyor bo‘lishingiz mumkin."
+        }
+      ]
+    }
+    
+  ]
+}

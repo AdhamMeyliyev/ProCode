@@ -1,0 +1,22 @@
+.blog_container{
+	position: relative;
+	width: 100vw;
+	height: 150px;
+	border: 3px solid #282938;
+	margin-top: 20px;
+
+	.blog_btn{
+		
+		position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color: #282938;
+	font-size: 40px;
+	font-weight: 700;
+
+	}
+}
+
+
+

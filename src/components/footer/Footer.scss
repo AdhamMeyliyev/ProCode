@@ -1,0 +1,143 @@
+footer {
+	// display: block;
+	position: relative;
+	// bottom: 0px;
+	width: 100vw;
+	height: 360px;
+	background-color: #1c1e53;
+	padding-top: 70px;
+	.container {
+		display: flex;
+		// align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+		.footer_logo {
+			display: flex;
+			flex-direction: column;
+			gap: 11px;
+			h1 {
+				font-size: 24px;
+				font-weight: bold;
+				letter-spacing: 0.5px;
+				color: #F5C958;
+				cursor: pointer;
+			}
+
+			.footer_logo_desc {
+				font-size: 16px;
+				color: #fff;
+				width: 397px;
+
+span{
+	color: #F5C958;
+	font-weight: 700;
+}
+			}
+		}
+
+		.footer_list {
+			display: flex;
+			// align-items: center;
+			gap: 90px;
+
+			a {
+				display: block;
+				font-size: 16px;
+				color: #fff;
+				letter-spacing: 0.5px;
+				cursor: pointer;
+			}
+
+			.footer_list_heading {
+				font-size: 20px;
+				color: #fff;
+				font-weight: 500;
+				margin-bottom: 17px;
+			}
+
+			.social_wrapper {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				flex-direction: row;
+
+				a {
+					font-size: 30px;
+					padding-bottom: 3px;
+					border-bottom: 3px solid transparent;
+				}
+
+				.telegram {
+					color: #0088cc;
+					transition: all 0.3s ease-in;
+
+					&:hover {
+						cursor: pointer;
+						border-bottom-color: #0088cc;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+				.instagram {
+					color: #e1306c;
+					transition: all 0.3s ease-in;
+					&:hover {
+						cursor: pointer;
+						border-bottom-color: #e1306c;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+				.whatsapp {
+					color: #25d366;
+					transition: all 0.3s ease-in;
+					&:hover {
+						cursor: pointer;
+						border-bottom-color: #25d366;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+
+				.email {
+					color: #0078d4;
+					transition: all 0.3s ease-in;
+					&:hover {
+						cursor: pointer;
+						border-bottom-color: #0078d4;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+
+	.footer_info {
+		position: absolute;
+		bottom: 0px;
+		left: 155px;
+		width: 420px;
+		height: 88px;
+		background-color: #fcd980;
+		border: 1px solid #232222;
+		border-radius: 5px;
+		padding: 15px 30px;
+
+		ul {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: space-between;
+			li {
+				h2 {
+					font-size: 18px;
+					color: #282938;
+					letter-spacing: 0.5px;
+					font-weight: bold;
+				}
+
+				a {
+					color: #282938;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
