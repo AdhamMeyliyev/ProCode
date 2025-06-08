@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	background: #c1bdba;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url('/src/assets/loginBgImg.jpg');
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 500px;
+}
+
+.form {
+	background: rgba(19, 35, 47, 0.95);
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px rgba(19, 35, 47, 0.3);
+	text-align: center;
+}
+
+.form h2 {
+	color: #ffffff;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.topBtnWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.topBtnWrapper button {
+	flex: 1;
+	padding: 10px 15px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.topBtnWrapper .signUpBtn {
+	background: #1ab188;
+	color: white;
+}
+
+.topBtnWrapper .signUpBtn {
+	background: transparent;
+	color: #a0b3b0;
+	border: 1px solid #a0b3b0;
+}
+
+.topBtnWrapper .signUpBtn:hover {
+	background: #168f72;
+}
+
+.topBtnWrapper .logInBtn {
+	background: transparent;
+	color: #a0b3b0;
+	border: 1px solid #a0b3b0;
+}
+
+.topBtnWrapper .logInBtn:hover {
+	background: #168f72;
+	color: white;
+}
+/* /////////////////////////////// */
+.signUpBtn,
+.logInBtn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.signUpBtn.active {
+	background: #1ab188;
+	color: white;
+}
+.logInBtn.active {
+	background: #1ab188;
+	color: white;
+}
+
+
+
+.signUpBtn.inactive {
+	background: transparent;
+	color: #a0b3b0;
+	border: 1px solid #a0b3b0;
+}
+/* /////////////////////////////// */
+
+.fullNameWrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.fullNameWrapper .firstName,
+.fullNameWrapper .lastName {
+	flex: 1;
+}
+
+label {
+	display: block;
+	font-size: 16px;
+	color: #a0b3b0;
+	margin-bottom: 5px;
+}
+
+label .required {
+	color: #ff0606;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #a0b3b0;
+	border-radius: 4px;
+	background: transparent;
+	color: #ffffff;
+	transition: 0.3s ease-in-out;
+}
+
+input:focus {
+	outline: none;
+	border-color: #1ab188;
+}
+
+input:invalid {
+	border-color: red;
+}
+
+.emailWrapper,
+.passwordWrapper,
+.fullNameWrapper {
+	margin-bottom: 20px;
+}
+
+.passwordWrapper {
+	position: relative;
+}
+
+.passlock {
+	position: absolute;
+	top: 55%;
+	right: 15px;
+	background-color: transparent;
+	border: none;
+}
+
+.passlock i{
+	font-size: 22px;	
+	color: #1ab188;
+}
+button[type='submit'] {
+	width: 100%;
+	padding: 12px;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+	background: #1ab188;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+button[type='submit']:hover {
+	background: #168f72;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 500px) {
+	.form {
+		padding: 20px;
+	}
+
+	.topBtnWrapper {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.fullNameWrapper {
+		flex-direction: column;
+	}
+}

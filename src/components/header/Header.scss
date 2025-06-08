@@ -199,6 +199,7 @@ $color: #0cf;
 				font-family: 'Open Sans';
 				text-transform: uppercase;
 				overflow-y: hidden;
+				cursor: pointer;
 
 				&:hover {
 					&:after {
@@ -233,7 +234,7 @@ $color: #0cf;
 					top: 0;
 					left: 0;
 					opacity: 1;
-					color: #fff;
+					color: red;
 					font-weight: bold;
 					display: block;
 					padding: 0 30px;

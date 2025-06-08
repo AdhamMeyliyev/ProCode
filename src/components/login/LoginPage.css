@@ -1,0 +1,119 @@
+.login-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login-form {
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(37, 117, 252, 0.3);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: #2575fc;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.login-form label {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  color: #444;
+}
+
+.login-form input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 5px #2575fc;
+}
+
+.login-form button {
+  margin-top: 2rem;
+  padding: 0.9rem 1rem;
+  background-color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:disabled {
+  background-color: #a0c1ff;
+  cursor: not-allowed;
+}
+
+.login-form button:hover:not(:disabled) {
+  background-color: #1a54d8;
+}
+
+.signup-redirect {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-redirect h4 {
+  margin-bottom: 10px;
+}
+
+.signup-redirect button {
+  padding: 8px 16px;
+  background-color: #00B074;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.signup-redirect button:hover {
+  background-color: #00995c;
+}
+
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.password-wrapper input {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.toggle-password1 {
+  position: absolute;
+  right: 1px;
+  top: -30px;
+  background: none;
+  height: 49px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 18px;
+}
+
