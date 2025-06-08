@@ -11,6 +11,7 @@ import Blog from "./components/allBlogs/Blog";
 import Login from "./components/login/LoginPage";
 import SignUp from "./components/sign/SignUp";
 
+
 import './App.css';
 
 // Foydalanuvchi login bo‘lganini tekshiruvchi komponent
