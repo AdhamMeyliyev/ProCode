@@ -9,7 +9,7 @@ import CourseDetails from "./components/courseDetails/CourseDetails";
 import Courses from "./components/allCourses/Courses";
 import Blog from "./components/allBlogs/Blog";
 import Login from "./components/login/LoginPage";
-import SignUp from "./components/sign/SignUp";
+import SignUp from "./components/sign/SIgnUp";
 
 
 import './App.css';
